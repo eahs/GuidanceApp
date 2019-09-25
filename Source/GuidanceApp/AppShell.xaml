@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Shell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" xmlns:local="clr-namespace:GuidanceApp.Views" Title="GuidanceApp" x:Class="GuidanceApp.AppShell">
-    <!-- 
-        Styles and Resources 
-    -->
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       xmlns:local="clr-namespace:GuidanceApp.Views"
+       FlyoutBehavior="Flyout"
+       Title="GuidanceApp"
+       x:Class="GuidanceApp.AppShell">
+
+         
+    
     <Shell.Resources>
         <ResourceDictionary>
             <Color x:Key="NavigationPrimary">#2196F3</Color>
@@ -20,7 +28,73 @@
             <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
         </ResourceDictionary>
     </Shell.Resources>
-    <!-- Your Pages -->
+
+      <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="Black"
+                  HeightRequest="72">
+                <Image Aspect="AspectFill"
+                       Source="joe.jpg"
+                       Opacity="1" />
+                <Label Text="EAHS Guidance"
+                       TextColor="White"
+                       Scale="2"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Grid>            
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    <FlyoutItem
+        Title="Home" Icon="cat.png">
+
+
+        <Tab Title="Browse" Icon="tab_feed.png">
+            <ShellContent Title="Items Top Tab" ContentTemplate="{DataTemplate local:ItemsPage}" />
+            <ShellContent Title="About Top Tab" ContentTemplate="{DataTemplate local:AboutPage}" />
+            
+
+        </Tab>
+        <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Appointments" Icon="cat.png">
+
+
+        <Tab Title="Appointments" Icon="tab_feed.png">
+            <ShellContent Title="Schedule" ContentTemplate="{DataTemplate local:MakeAppointment}" />
+            <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:AboutPage}" />
+            
+
+        </Tab>
+        <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Links" Icon="cat.png">
+
+
+        <Tab Title="Browse" Icon="tab_feed.png">
+            <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:ItemsPage}" />
+            <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
+             <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
+           
+
+        </Tab>
+        <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+
+    </FlyoutItem>
+
+
+
+    <!-- Your Pages
     <TabBar>
         <Tab Title="Browse" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
@@ -29,6 +103,8 @@
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
     </TabBar>
+    -->
+
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.
 
