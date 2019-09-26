@@ -6,11 +6,81 @@
              <ContentPage.BindingContext>
                     <vm:LinksViewModel />
                 </ContentPage.BindingContext>
-<StackLayout>
+<ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#2196F3</Color>
+            <Color x:Key="Accent">#96d1ff</Color>
+            <Color x:Key="LightTextColor">#999999</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="16,100,16,40" Spacing="10">
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="SAT Links" FontAttributes="Bold" FontSize="22" />
+                                <Span Text=" " />
+                                <Span Text="" ForegroundColor="{StaticResource LightTextColor}" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Sign up or take the practice test for the" />
+                                <Span Text=" " />
+                                <Span Text="SAT" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+         
+                </Label>
+                <Button x:Name="SAT" Margin="0,10,0,0" Text="SAT Registration" Command="{Binding OpenWebCommand}" BackgroundColor="Red" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="PT" Margin="0,10,0,0" Text="Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="Red" TextColor="White" FontAttributes="Bold"/>
+                <Label FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="ACT Links" FontAttributes="Bold" FontSize="22" />
+                                <Span Text=" " />
+                                <Span Text="" ForegroundColor="{StaticResource LightTextColor}" />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Sign up or take the practice test for the" />
+                                <Span Text=" " />
+                                <Span Text="ACT" FontAttributes="Bold" />
+                                <Span Text="." />
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label>
+         
+                </Label>
+ 
+                <Button x:Name="ACT" Margin="0,10,0,0" Text="ACT Registration" Command="{Binding OpenWebCommand}" BackgroundColor="Red" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="MPT" Margin="0,10,0,0" Text="Math Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" />
+                <Button x:Name="RPT" Margin="0,10,0,0" Text="Reading Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="Red" TextColor="White" FontAttributes="Bold"/>
+            </StackLayout>
 
-<Button Text="College Board" BackgroundColor="Red" HorizontalOptions="Center" VerticalOptions="Center"/>
-<Button Text="College Board 2" BackgroundColor="Red" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </ScrollView>
+    </Grid>
 
-
-</StackLayout>
 </ContentPage>

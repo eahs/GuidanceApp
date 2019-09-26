@@ -10,6 +10,9 @@ namespace GuidanceApp.Views
         public LinksPage()
         {
             InitializeComponent();
+
+
+            
         }
     }
 }

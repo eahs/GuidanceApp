@@ -46,7 +46,7 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
     <FlyoutItem
-        Title="Home" Icon="cat.png">
+        Title="Home" Icon="tab_feed.png">
 
 
         <Tab Title="Home" Icon="tab_feed.png">
@@ -78,7 +78,7 @@
     <FlyoutItem
         Title="Links" Icon="cat.png">
 
-
+        
         <Tab Title="Links" Icon="tab_feed.png">
             <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
             <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
