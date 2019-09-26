@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuidanceApp.Views.LinksPage"
+             xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
+             Title="{Binding Title}">
+             <ContentPage.BindingContext>
+                    <vm:LinksViewModel />
+                </ContentPage.BindingContext>
+<StackLayout>
+
+<Button Text="College Board" BackgroundColor="Red" HorizontalOptions="Center" VerticalOptions="Center"/>
+<Button Text="College Board 2" BackgroundColor="Red" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+</StackLayout>
+</ContentPage>

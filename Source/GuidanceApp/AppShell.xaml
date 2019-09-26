@@ -31,14 +31,14 @@
 
       <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
-            <Grid BackgroundColor="Black"
+            <Grid BackgroundColor="Red"
                   HeightRequest="72">
                 <Image Aspect="AspectFill"
                        Source="joe.jpg"
                        Opacity="1" />
-                <Label Text="EAHS Guidance"
+                <Label Text="EAHS Student Resources"
                        TextColor="White"
-                       Scale="2"
+                       Scale="1.539"
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center" />
@@ -49,9 +49,9 @@
         Title="Home" Icon="cat.png">
 
 
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent Title="Items Top Tab" ContentTemplate="{DataTemplate local:ItemsPage}" />
-            <ShellContent Title="About Top Tab" ContentTemplate="{DataTemplate local:AboutPage}" />
+        <Tab Title="Home" Icon="tab_feed.png">
+            <ShellContent Title="Items Top Tab" ContentTemplate="{DataTemplate local:HomePage}"/>
+            
             
 
         </Tab>
@@ -79,10 +79,10 @@
         Title="Links" Icon="cat.png">
 
 
-        <Tab Title="Browse" Icon="tab_feed.png">
-            <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:ItemsPage}" />
+        <Tab Title="Links" Icon="tab_feed.png">
+            <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
             <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
-             <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
            
 
         </Tab>
