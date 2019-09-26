@@ -8,6 +8,34 @@
 <ContentPage.BindingContext>
    <vm:HomeViewModel />
 </ContentPage.BindingContext>
+<Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions><RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+<StackLayout Orientation="Vertical" Padding="0,100,0,40" Spacing="10">
+<AbsoluteLayout>
+<BoxView BackgroundColor="#8B0000" WidthRequest="415" HeightRequest="100"/>
+<Label FontSize="22">             
+   <Label.FormattedText>
+      <FormattedString>
+         <FormattedString.Spans>
+             <Span Text="WELCOME BACK" TextColor="White" FontAttributes="Bold" FontSize="40" />
+             <Span Text=" "/>
+         
+        </FormattedString.Spans>
+     </FormattedString>
+  </Label.FormattedText>
+</Label>
 
+</AbsoluteLayout>
+
+
+
+
+
+</StackLayout>
+</Grid>
 
 </ContentPage>
