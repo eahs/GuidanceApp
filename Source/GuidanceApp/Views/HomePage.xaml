@@ -14,22 +14,19 @@
     </Grid.ColumnDefinitions>
     <Grid.RowDefinitions><RowDefinition Height="*" />
     </Grid.RowDefinitions>
-<StackLayout Orientation="Vertical" Padding="0,100,0,40" Spacing="10">
-<AbsoluteLayout>
-<BoxView BackgroundColor="#8B0000" WidthRequest="415" HeightRequest="100"/>
-<Label FontSize="22">             
-   <Label.FormattedText>
-      <FormattedString>
-         <FormattedString.Spans>
-             <Span Text="WELCOME BACK" TextColor="White" FontAttributes="Bold" FontSize="40" />
-             <Span Text=" "/>
-         
-        </FormattedString.Spans>
-     </FormattedString>
-  </Label.FormattedText>
-</Label>
+<StackLayout Orientation="Vertical" Padding="0,50,0,40" Spacing="10">
+<Label Text="EAHS STUDENT RESOURCES"
+       FontSize="Title"
+       FontAttributes="Bold"
+       FontFamily="Helvetica"
+       HorizontalTextAlignment="Center">
 
-</AbsoluteLayout>
+
+</Label>
+<Editor BackgroundColor="#A61C00" IsReadOnly="True">
+
+</Editor>
+
 
 
 
