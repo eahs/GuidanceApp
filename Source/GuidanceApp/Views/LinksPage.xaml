@@ -19,7 +19,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="16,100,16,40" Spacing="10">
+            <StackLayout Orientation="Vertical" Padding="16,25,16,40" Spacing="10">
                 
                 <Label FontSize="22">
                    

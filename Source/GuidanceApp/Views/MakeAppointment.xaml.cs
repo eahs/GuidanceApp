@@ -10,6 +10,12 @@ namespace GuidanceApp.Views
         public MakeAppointment()
         {
             InitializeComponent();
+            
         }
+    }
+
+    public class MyEntry : Entry
+    {
+
     }
 }

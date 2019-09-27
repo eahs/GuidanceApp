@@ -6,5 +6,75 @@
  <ContentPage.BindingContext>
    <vm:AppointViewModel />
 </ContentPage.BindingContext>
+<Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions><RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+<StackLayout Padding="16,50,15,0">
+<Label Text="Request an appointment with your councilor"
+       FontAttributes="Bold"
+       FontFamily="Helvetica">
+
+</Label>
+
+</StackLayout>
+<StackLayout Padding="16, 100, 16, 0">
+
+<Label
+    Text="Your Councilor:"
+    FontAttributes="Bold"
+    FontSize="20"
+    FontFamily="Helvetica Light"/>
+<Picker x:Name="Councilor"
+        Title="Select a Councilor"
+        BackgroundColor="WhiteSmoke">
+    <Picker.Items> 
+        <x:String>Mrs.Smith</x:String>
+         <x:String>Mr.Gordon</x:String>
+         <x:String>Councilor3</x:String>
+         <x:String>Councilor4</x:String>
+
+
+    </Picker.Items>
+
+</Picker>
+<Label
+    Text="Enter Name: "
+    FontAttributes="Bold"
+    FontSize="20"
+    FontFamily="Helvetica Light"
+    />
+<Entry
+    Placeholder="Name"
+    Keyboard="Default"
+    BackgroundColor="WhiteSmoke"/>
+<Label
+    Text="Enter Your Reason: "
+    FontAttributes="Bold"
+    FontSize="20"
+    FontFamily="Helvetica Light" />
+<Editor Placeholder="Reason"
+        BackgroundColor="WhiteSmoke"
+        HeightRequest="100"
+        Keyboard="Default"/>
+<Label
+    Text=">>You will recieve a notification when your councilor has approved the appointment."
+    FontAttributes="Bold"
+    FontSize="12"
+    FontFamily="Helvetica Light" />
+<Button Text="Submit"
+        TextColor="White"
+        FontAttributes="Bold"
+        FontSize="20"
+        BackgroundColor="#66c2ff"/>
+
+
+</StackLayout>
+
+</Grid>
+
+
 </ContentPage>
 

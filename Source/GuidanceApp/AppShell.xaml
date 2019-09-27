@@ -19,13 +19,15 @@
       <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="#A61C00"
-                  HeightRequest="72">
+        
+                  HeightRequest="75">
                 <Image Aspect="AspectFill"
                        Source="joe.jpg"
                        Opacity="1" />
                 <Label Text="EAHS Student Resources"
                        TextColor="White"
                        Scale="1.539"
+                       
                        FontAttributes="Bold"
                        HorizontalTextAlignment="Center"
                        VerticalTextAlignment="Center" />
@@ -45,6 +47,9 @@
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
+        <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
 
     </FlyoutItem>
     <FlyoutItem
@@ -52,12 +57,15 @@
 
 
         <Tab Title="Appointments" Icon="tab_feed.png">
-            <ShellContent Title="Schedule" ContentTemplate="{DataTemplate local:MakeAppointment}" />
+            <ShellContent Title="Request" ContentTemplate="{DataTemplate local:MakeAppointment}" />
             <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:AboutPage}" />
             
-
+            
         </Tab>
         <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+         <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
 
@@ -76,6 +84,9 @@
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
+        <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
 
     </FlyoutItem>
     <FlyoutItem
@@ -90,6 +101,9 @@
 
         </Tab>
         <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+         <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
 
