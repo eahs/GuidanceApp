@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GuidanceApp.Views.CancelAppoint"
+             xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:CancelAppointViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Padding="16,40,16,40">
+            <Label Text="Cancel an appointment with your Guidance Counselor"
+                   FontAttributes="Bold"
+                   FontSize="15"
+                   FontFamily="Helvetica">
+                
+            </Label>
+            <Label Text="Provide a reason for cancellation: "
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   FontFamily="Helvetica Light">
+
+            </Label>
+            <Editor 
+                Placeholder="Reason (Optional)" 
+                HeightRequest="100" 
+                BackgroundColor="WhiteSmoke">
+                
+                
+            </Editor>
+            <Button Text="Cancel Appointment"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    BackgroundColor="#66c2ff"
+                    FontSize="20">
+                
+                
+            </Button>
+
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>

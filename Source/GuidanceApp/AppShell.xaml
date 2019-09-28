@@ -58,7 +58,7 @@
 
         <Tab Title="Appointments" Icon="tab_feed.png">
             <ShellContent Title="Request" ContentTemplate="{DataTemplate local:MakeAppointment}" />
-            <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:CancelAppoint}" />
             
             
         </Tab>

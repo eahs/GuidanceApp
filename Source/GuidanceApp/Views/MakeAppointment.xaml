@@ -47,7 +47,7 @@
     FontFamily="Helvetica Light"
     />
 <Entry
-    Placeholder="Name"
+    Placeholder="Name (Required)"
     Keyboard="Default"
     BackgroundColor="WhiteSmoke"/>
 <Label
@@ -55,7 +55,7 @@
     FontAttributes="Bold"
     FontSize="20"
     FontFamily="Helvetica Light" />
-<Editor Placeholder="Reason"
+<Editor Placeholder="Reason (Required)"
         BackgroundColor="WhiteSmoke"
         HeightRequest="100"
         Keyboard="Default"/>
