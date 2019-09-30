@@ -19,14 +19,19 @@
 
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
+<AbsoluteLayout Padding="10, 0, 0, 0">
+<Label Text="EASD Website"
+       TextColor="#A61C00"
+       FontFamily="Helvetica Light"
+       TextDecorations="Underline">
+</Label>
+</AbsoluteLayout>
 <Label Text="WELCOME TO"
            TextColor="White"
            FontAttributes="Bold"
            FontFamily="Helvetica"
            FontSize="25"
            HorizontalTextAlignment="Center">
-
-
 </Label>
 <Label Text="EAHS STUDENT RESOURCES"
        TextColor="White"
@@ -34,29 +39,38 @@
        FontAttributes="Bold"
        FontFamily="Helvetica"
        HorizontalTextAlignment="Center">
-
-
 </Label>
     <AbsoluteLayout>
     <BoxView Color="#A61C00" HeightRequest="25" WidthRequest="415">
-
-
     </BoxView>
-
     </AbsoluteLayout>
+    <StackLayout Padding="10, 0, 0, 0">
+    <Label Text="UPCOMING: "
+           TextColor="White"
+           FontAttributes="Bold"
+           FontSize="50">
 
-<Label Text=" >> Request an appointment"
-       TextColor="White"
-       FontSize="20"
-       
-       FontFamily="Helvetica"
-       HorizontalTextAlignment="Start">
-
-
-</Label>
-
-
-
+    </Label>
+    </StackLayout>
+    <StackLayout Padding="0,0,0,0">
+    <Editor BackgroundColor="Transparent"
+            Placeholder="I.E. - Appointment with Mrs. Smith on the 18th."
+            PlaceholderColor="White">
+    </Editor>
+    </StackLayout>
+    <StackLayout Padding="10, 0, 0, 0">
+    <Label Text="SUMMER WORK: "
+           TextColor="White"
+           FontAttributes="Bold"
+           FontSize="50">
+    </Label>
+    </StackLayout>
+    <StackLayout Padding="0,0,0,0">
+    <Editor BackgroundColor="Transparent"
+            Placeholder="I.E. You have summer work due in Mr. Tanzcos' class"
+            PlaceholderColor="White">
+    </Editor>
+    </StackLayout>
 
 
 
