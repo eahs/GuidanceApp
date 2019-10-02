@@ -57,7 +57,7 @@
 
 
         <Tab Title="Appointments" Icon="tab_feed.png">
-            <ShellContent Title="Request" ContentTemplate="{DataTemplate local:MakeAppointment}" />
+            <ShellContent Title="Request" ContentTemplate="{DataTemplate local:MakeAppointment}"/>
             <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:CancelAppoint}" />
             
             
@@ -108,7 +108,25 @@
         </Tab>
 
     </FlyoutItem>
+       <FlyoutItem
+        Title="Job Board" Icon="cat.png">
 
+        
+        <Tab Title="Job Board" Icon="tab_feed.png">
+            <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:JobPage}" />
+            <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
+           
+
+        </Tab>
+        <Tab Title="About" Icon="tab_about.png">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+        <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+
+    </FlyoutItem>
 
 
     <!-- Your Pages

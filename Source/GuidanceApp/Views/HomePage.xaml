@@ -10,6 +10,7 @@
 <ContentPage.BindingContext>
    <vm:HomeViewModel />
 </ContentPage.BindingContext>
+
 <Grid>
     <Grid.ColumnDefinitions>
         <ColumnDefinition Width="*" />
@@ -20,10 +21,17 @@
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
 <AbsoluteLayout Padding="10, 0, 0, 0">
-<Label Text="EASD Website"
+
+<Label x:Name="Web" Text="EASD Website"
        TextColor="#A61C00"
        FontFamily="Helvetica Light"
        TextDecorations="Underline">
+
+    <Label.GestureRecognizers>
+        <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/>
+            
+    </Label.GestureRecognizers>
+
 </Label>
 </AbsoluteLayout>
 <Label Text="WELCOME TO"
@@ -33,7 +41,7 @@
            FontSize="25"
            HorizontalTextAlignment="Center">
 </Label>
-<Label Text="EAHS STUDENT RESOURCES"
+<Label Text="EAHS GUIDANCE"
        TextColor="White"
        FontSize="Title"
        FontAttributes="Bold"
@@ -48,21 +56,24 @@
     <Label Text="UPCOMING: "
            TextColor="White"
            FontAttributes="Bold"
-           FontSize="50">
+           FontSize="50"
+           HorizontalTextAlignment="Center">
 
     </Label>
     </StackLayout>
     <StackLayout Padding="0,0,0,0">
     <Editor BackgroundColor="Transparent"
             Placeholder="I.E. - Appointment with Mrs. Smith on the 18th."
-            PlaceholderColor="White">
+            PlaceholderColor="White"
+            >
     </Editor>
     </StackLayout>
     <StackLayout Padding="10, 0, 0, 0">
     <Label Text="SUMMER WORK: "
            TextColor="White"
            FontAttributes="Bold"
-           FontSize="50">
+           FontSize="50"
+           HorizontalTextAlignment="Center">
     </Label>
     </StackLayout>
     <StackLayout Padding="0,0,0,0">

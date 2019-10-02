@@ -11,5 +11,10 @@ namespace GuidanceApp.Views
         {
             InitializeComponent();
         }
+
+        public void HomeTap (object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.eastonsd.org/"));
+        }
     }
 }

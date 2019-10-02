@@ -48,8 +48,9 @@
                 <Label>
          
                 </Label>
-                <Button x:Name="SAT" Margin="0,10,0,0" Text="SAT Registration" Command="{Binding OpenWebCommand}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
-                <Button x:Name="PT" Margin="0,10,0,0" Text="Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="SAT" Margin="0,10,0,0" Text="SAT Registration" Command="{Binding OpenSAT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
+                
+                <Button x:Name="PT" Margin="0,10,0,0" Text="Practice Test" Command="{Binding OpenPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
                 <Label FontSize="22">
                     <Label.FormattedText>
                         <FormattedString>
@@ -77,9 +78,9 @@
          
                 </Label>
  
-                <Button x:Name="ACT" Margin="0,10,0,0" Text="ACT Registration" Command="{Binding OpenWebCommand}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
-                <Button x:Name="MPT" Margin="0,10,0,0" Text="Math Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold" />
-                <Button x:Name="RPT" Margin="0,10,0,0" Text="Reading Practice Test" Command="{Binding OpenWebCommand}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="ACT" Margin="0,10,0,0" Text="ACT Registration" Command="{Binding OpenACT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="MPT" Margin="0,10,0,0" Text="Math Practice Test" Command="{Binding OpenMPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold" />
+                <Button x:Name="RPT" Margin="0,10,0,0" Text="Reading Practice Test" Command="{Binding RPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
             </StackLayout>
 
         </ScrollView>
