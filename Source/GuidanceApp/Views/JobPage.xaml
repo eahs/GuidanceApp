@@ -4,7 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="GuidanceApp.Views.JobPage"
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
-    Title="{Binding Title}">
+    Title="{Binding Title}"
+    BackgroundColor="White">
      <ContentPage.BindingContext>
         <vm:JobViewModel />
     </ContentPage.BindingContext>
@@ -13,6 +14,37 @@
             <SearchBar
                 Placeholder="Search Jobs"
                 BackgroundColor="WhiteSmoke" />
+<TableView>
+    <TableRoot >
+        <TableSection Title="Title 01" >
+            <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Job Title"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $16/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.3">
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
+
+            
+        </TableSection>
+        <TableSection Title="Title 02">
+            
+
+            
+        </TableSection>
+    </TableRoot>
+</TableView>
            
 
 

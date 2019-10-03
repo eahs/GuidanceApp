@@ -20,6 +20,7 @@
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
     <Compile Remove="Views\MyView.xaml.cs" />
+    <Compile Remove="Views\NotificationsPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">

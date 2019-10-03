@@ -21,7 +21,16 @@
 
 </StackLayout>
 <StackLayout Padding="16, 100, 16, 0">
-
+<Label
+    Text="Enter Name: "
+    FontAttributes="Bold"
+    FontSize="20"
+    FontFamily="Helvetica Light"
+    />
+<Entry
+    Placeholder="Name (Required)"
+    Keyboard="Default"
+    BackgroundColor="WhiteSmoke"/>
 <Label
     Text="Your Councilor:"
     FontAttributes="Bold"
@@ -40,16 +49,7 @@
     </Picker.Items>
 
 </Picker>
-<Label
-    Text="Enter Name: "
-    FontAttributes="Bold"
-    FontSize="20"
-    FontFamily="Helvetica Light"
-    />
-<Entry
-    Placeholder="Name (Required)"
-    Keyboard="Default"
-    BackgroundColor="WhiteSmoke"/>
+
 <Label
     Text="Enter Your Reason: "
     FontAttributes="Bold"

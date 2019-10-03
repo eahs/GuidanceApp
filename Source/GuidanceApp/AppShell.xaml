@@ -48,7 +48,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
         <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
@@ -65,8 +65,8 @@
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
-         <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+        <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
@@ -85,7 +85,7 @@
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
         <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
@@ -103,8 +103,8 @@
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
-         <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+          <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
@@ -113,17 +113,17 @@
 
         
         <Tab Title="Job Board" Icon="tab_feed.png">
-            <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:JobPage}" />
-            <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
-            <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent Title="Jobs" ContentTemplate="{DataTemplate local:JobPage}" />
+            <ShellContent Title="Databases" ContentTemplate="{DataTemplate local:AboutPage}" />
+            
            
 
         </Tab>
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
-        <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+          <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
