@@ -8,14 +8,7 @@
                 <vm:NotificationsViewModel />
              </ContentPage.BindingContext>
     <StackLayout>
-     <ListView ItemsSource="">
-         <ListView.ItemTemplate>
-             <DataTemplate>
-
-             </DataTemplate>
-         </ListView.ItemTemplate>
-
-     </ListView>
+   
     </StackLayout>
 
 </ContentPage>

@@ -16,11 +16,11 @@
                 BackgroundColor="WhiteSmoke" />
 <TableView>
     <TableRoot >
-        <TableSection Title="Title 01" >
+        <TableSection Title="Retail" >
             <ViewCell>
 
                 <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Job Title"
+                    <Button Text="Retail Job 1"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
@@ -29,7 +29,28 @@
                     <Label Text="Mon-Fri | $16/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
-                            Opacity="0.3">
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
+
+            <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Retail Job 2"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $6/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
 
                     </Label>
                 </StackLayout>
@@ -38,11 +59,103 @@
 
             
         </TableSection>
-        <TableSection Title="Title 02">
-            
+
+
+
+        <TableSection Title="Food Service">
+
+           <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Food Job 1"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $9/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
+
+
+            <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Food Job 2"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $11/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
 
             
         </TableSection>
+
+
+
+        <TableSection Title="Others">
+
+         <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Other Job 1"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $11/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
+
+            <ViewCell>
+
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Other Job 2"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Mon-Fri | $11/hour"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+
+            </ViewCell>
+
+
+
+        </TableSection>
+
     </TableRoot>
 </TableView>
            
