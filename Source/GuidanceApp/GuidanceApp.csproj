@@ -16,11 +16,13 @@
   <ItemGroup>
     <EmbeddedResource Remove="Views\Test.xaml" />
     <EmbeddedResource Remove="Views\MyView.xaml" />
+    <EmbeddedResource Remove="Views\MyPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
     <Compile Remove="Views\MyView.xaml.cs" />
     <Compile Remove="Views\NotificationsPage.cs" />
+    <Compile Remove="Views\MyPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">
