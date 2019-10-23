@@ -9,14 +9,4 @@
         <vm:SummerWorkViewModel/>
     </ContentPage.BindingContext>
 
-<Grid>
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*" />
-    </Grid.ColumnDefinitions>
-    <Grid.RowDefinitions>
-        <RowDefinition Height="*" />
-    </Grid.RowDefinitions>
-</Grid>
-
-
 </ContentPage>
