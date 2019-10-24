@@ -75,11 +75,12 @@
 
         
         <Tab Title="Summer Work" Icon="tab_feed.png">
-            <ShellContent Title="Math" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
-            <ShellContent Title="English" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
-            <ShellContent Title="Science" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
-            <ShellContent Title="History" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
             <ShellContent Title="Buis. and Comp." ContentTemplate="{DataTemplate local:SummerWorkPage}" />
+            <ShellContent Title="English" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
+            <ShellContent Title="Foreign Language" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
+            <ShellContent Title="History" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
+            <ShellContent Title="Math" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
+            <ShellContent Title="Science" ContentTemplate="{DataTemplate local:SummerWorkPage}" />
            
 
         </Tab>

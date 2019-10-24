@@ -18,6 +18,7 @@
     <EmbeddedResource Remove="Views\MyView.xaml" />
     <EmbeddedResource Remove="Views\SummerWork.xaml" />
     <EmbeddedResource Remove="Views\MyPage.xaml" />
+    <EmbeddedResource Remove="Views\BuisCompWorkPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
@@ -25,6 +26,7 @@
     <Compile Remove="Views\NotificationsPage.cs" />
     <Compile Remove="Views\SummerWork.xaml.cs" />
     <Compile Remove="Views\MyPage.xaml.cs" />
+    <Compile Remove="Views\BuisCompWorkPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">

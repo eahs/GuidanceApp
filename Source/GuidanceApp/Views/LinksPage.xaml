@@ -4,8 +4,8 @@
              xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
              Title="{Binding Title}">
              <ContentPage.BindingContext>
-                    <vm:LinksViewModel />
-                </ContentPage.BindingContext>
+                <vm:LinksViewModel />
+             </ContentPage.BindingContext>
 <ContentPage.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#2196F3</Color>
