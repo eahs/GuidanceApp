@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace GuidanceApp.Views
 {
-    public partial class SummerWorkPage : ContentPage
+    public partial class BuisCompSummerPage : ContentPage
     {
-        public SummerWorkPage()
+        public BuisCompSummerPage()
         {
             InitializeComponent();
         }

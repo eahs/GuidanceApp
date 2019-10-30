@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GuidanceApp.Views.BuisCompSummerPage"
+    xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
+    Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:SummerWorkViewModel/>
+    </ContentPage.BindingContext>
+
+<Grid>
+    <StackLayout Orientation="Vertical" Padding="0, 35, 0, 40">
+            <TableView>
+                <TableRoot >
+                    <TableSection Title="Buisness and Computer Technology" >
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="AP Computer Science Principles"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="AP Computer Science"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+
+                    </TableSection>
+
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+</Grid>
+</ContentPage>
