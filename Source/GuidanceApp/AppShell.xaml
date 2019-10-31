@@ -98,7 +98,7 @@
         
         <Tab Title="Links" Icon="tab_feed.png">
             <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
-            <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:AboutPage}" />
+            <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:ScholarshipsPage}" />
             <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
            
 
