@@ -9,4 +9,123 @@
         <vm:SummerWorkViewModel/>
     </ContentPage.BindingContext>
 
+<Grid>
+    <StackLayout Orientation="Vertical" Padding="0, 35, 0, 40">
+            <TableView>
+                <TableRoot >
+                    <TableSection Title="Honors Classes" >
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="Honors Geometry"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="Honors Algebra 2"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="Honors PreCalculus"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="Honors Calculus"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="Honors Statistics "
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                    </TableSection>
+
+                    <TableSection Title="AP Classes" >
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="AP Calculus AB"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="AP Calculus BC"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                        <ViewCell>
+
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="AP Statistics"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                                </Button>
+                            </StackLayout>
+
+                        </ViewCell>
+
+                    </TableSection>
+
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+</Grid>
+
 </ContentPage>
