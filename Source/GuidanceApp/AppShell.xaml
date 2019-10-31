@@ -24,7 +24,7 @@
                 <Image Aspect="AspectFill"
                        Source="joe.jpg"
                        Opacity="1" />
-                <Label Text="EAHS Student Resources"
+                <Label Text="EAHS Guidance"
                        TextColor="White"
                        Scale="1.539"
                        
@@ -35,46 +35,42 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
     <FlyoutItem
-        Title="Home" Icon="tab_feed.png">
+        Title="Home" Icon="home.png">
 
 
-        <Tab Title="Home" Icon="tab_feed.png">
+        <Tab Title="Home" Icon="home.png">
             <ShellContent Title="Items Top Tab" ContentTemplate="{DataTemplate local:HomePage}"/>
             
             
 
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
+      
         <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
     <FlyoutItem
-        Title="Appointments" Icon="cat.png">
+        Title="Appointments" Icon="appointment.png">
 
 
-        <Tab Title="Appointments" Icon="tab_feed.png">
+        <Tab Title="Appointments" Icon="appointment.png">
             <ShellContent Title="Request" ContentTemplate="{DataTemplate local:MakeAppointment}"/>
             <ShellContent Title="Cancel" ContentTemplate="{DataTemplate local:CancelAppoint}" />
             
             
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
+      
         <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
       <FlyoutItem
-        Title="Summer Work" Icon="cat.png">
+        Title="Summer Work" Icon="pending.png">
 
         
-        <Tab Title="Summer Work" Icon="tab_feed.png">
+        <Tab Title="Summer Work" Icon="pending.png">
             <ShellContent Title="Buis. and Comp." ContentTemplate="{DataTemplate local:BuisCompSummerPage}" />
             <ShellContent Title="English" ContentTemplate="{DataTemplate local:EnglishSummerPage}" />
             <ShellContent Title="Foreign Language" ContentTemplate="{DataTemplate local:ForLangSummerPage}" />
@@ -84,46 +80,39 @@
            
 
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
+       
         <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
     <FlyoutItem
-        Title="Links" Icon="cat.png">
+        Title="Links" Icon="link.png">
 
         
-        <Tab Title="Links" Icon="tab_feed.png">
+        <Tab Title="Links" Icon="link.png">
             <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
             <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:ScholarshipsPage}" />
             <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
            
 
         </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
-        </Tab>
+      
           <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
        <FlyoutItem
-        Title="Job Board" Icon="cat.png">
+        Title="Job Board" Icon="suitcase.png">
 
         
-        <Tab Title="Job Board" Icon="tab_feed.png">
+        <Tab Title="Job Board" Icon="suitcase.png">
             <ShellContent Title="Jobs" ContentTemplate="{DataTemplate local:JobPage}" />
             <ShellContent Title="Databases" ContentTemplate="{DataTemplate local:AboutPage}" />
             
            
 
-        </Tab>
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
         </Tab>
           <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
@@ -132,23 +121,37 @@
     </FlyoutItem>
 
     
-       <FlyoutItem
-        Title="Calendar" Icon="cat.png">
+       <!-- <FlyoutItem
+        Title="Calendar" Icon="calendar.png">
 
         
-        <Tab Title="Calendar" Icon="tab_feed.png">
+        <Tab Title="Calendar" Icon="calendar.png">
             <ShellContent Title="Calendar" ContentTemplate="{DataTemplate local:CalendarPage}" />
         </Tab>
 
 
-        <Tab Title="About" Icon="tab_about.png">
-            <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+      
+          <Tab Title="Notifications" Icon="tab_feed@3x">
+            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
+
+    </FlyoutItem> -->
+     <FlyoutItem
+        Title="About" Icon="tab_about.png">
+
+        
+        <Tab Title="About" Icon="tab_about.png">
+            <ShellContent Title="Calendar" ContentTemplate="{DataTemplate local:AboutPage}" />
+        </Tab>
+
+
+      
           <Tab Title="Notifications" Icon="tab_feed@3x">
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
     </FlyoutItem>
+
 
     <!-- Your Pages
     <TabBar>

@@ -122,6 +122,13 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
     <BundleResource Include="Resources\Mountain.jpg" />
     <BundleResource Include="Resources\Mountain2.jpg" />
+    <BundleResource Include="Resources\appointment.png" />
+    <BundleResource Include="Resources\pending.png" />
+    <BundleResource Include="Resources\link.png" />
+    <BundleResource Include="Resources\suitcase.png" />
+    <BundleResource Include="Resources\calendar.png" />
+    <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

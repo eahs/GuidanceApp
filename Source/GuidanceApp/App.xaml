@@ -16,9 +16,9 @@
          </Style>
         
         <Style x:Key="BaseStyle" ApplyToDerivedTypes="true" TargetType="Element">
-            <Setter Property="Shell.TabBarBackgroundColor" Value="#eeeeee" />
-            <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource Key=primary-color}" />
-            <Setter Property="Shell.TabBarUnselectedColor" Value="#666666" />
+            <Setter Property="Shell.TabBarBackgroundColor" Value="#A61C00" />
+            <Setter Property="Shell.TabBarTitleColor" Value="white" />
+            <Setter Property="Shell.TabBarUnselectedColor" Value="DarkGray" />
             <Setter Property="Shell.BackgroundColor" Value="{StaticResource Key=primary-color}" />
             <Setter Property="Shell.ForegroundColor" Value="{StaticResource Key=primary-title-color}" />
             <Setter Property="Shell.TitleColor" Value="{StaticResource Key=primary-title-color}" />

@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
     x:Class="GuidanceApp.Views.HomePage"
-    BackgroundImageSource="Mountain2.jpg"
+    BackgroundColor="DimGray"
     
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
     Title="{Binding Title}">
@@ -22,7 +22,7 @@
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
 <AbsoluteLayout Padding="10, 0, 0, 0">
 
-<Label x:Name="Web" Text="EASD Website"
+<Label x:Name="Web" Text="EASD Website" 
        TextColor="#A61C00"
        FontFamily="Helvetica Light"
        TextDecorations="Underline">
@@ -34,22 +34,15 @@
 
 </Label>
 </AbsoluteLayout>
-<Label Text="WELCOME TO"
-           TextColor="White"
-           FontAttributes="Bold"
-           FontFamily="Helvetica"
-           FontSize="25"
-           HorizontalTextAlignment="Center">
-</Label>
 <Label Text="EAHS GUIDANCE"
        TextColor="White"
-       FontSize="Title"
+       FontSize="40"
        FontAttributes="Bold"
        FontFamily="Helvetica"
        HorizontalTextAlignment="Center">
 </Label>
     <AbsoluteLayout>
-    <BoxView Color="#A61C00" HeightRequest="25" WidthRequest="415">
+    <BoxView Color="#A61C00" HeightRequest="3" WidthRequest="415">
     </BoxView>
     </AbsoluteLayout>
     <StackLayout Padding="10, 0, 0, 0">
@@ -60,27 +53,22 @@
            HorizontalTextAlignment="Center">
 
     </Label>
+           <Label Text="You have no scheduled appointments."
+           HorizontalTextAlignment="Center"
+           TextColor="White"/>
+           <Label Text="AP Computer Science: Due 9/9/19"
+           HorizontalTextAlignment="Center"
+           TextColor="White"/>   
     </StackLayout>
-    <StackLayout Padding="0,0,0,0">
-    <Editor BackgroundColor="Transparent"
-            Placeholder="I.E. - Appointment with Mrs. Smith on the 18th."
-            PlaceholderColor="White"
-            >
-    </Editor>
-    </StackLayout>
-    <StackLayout Padding="10, 0, 0, 0">
-    <Label Text="SUMMER WORK: "
-           TextColor="White"
-           FontAttributes="Bold"
-           FontSize="50"
-           HorizontalTextAlignment="Center">
-    </Label>
-    </StackLayout>
-    <StackLayout Padding="0,0,0,0">
-    <Editor BackgroundColor="Transparent"
-            Placeholder="I.E. You have summer work due in Mr. Tanzcos' class"
-            PlaceholderColor="White">
-    </Editor>
+    <StackLayout Padding="0,60,0,0">
+        <Label Text="Want to meet with your counselor?"
+               HorizontalTextAlignment="Center"
+               TextColor="White"/>
+        <Button Text="Request an Appoinment"
+                TextColor="White"
+                FontAttributes="Bold"
+                BackgroundColor="#A61C00"
+                Margin="10,0,10,0"/>
     </StackLayout>
 
 
