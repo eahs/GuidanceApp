@@ -124,7 +124,7 @@
                             FontFamily="Helvetica"
                             FontSize="16">
                                 </Button>
-                                <Label Text="Mon-Fri | $16/hour"
+                                <Label Text="Sun-Thurs | $16/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">

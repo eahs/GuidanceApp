@@ -80,7 +80,7 @@
  
                 <Button x:Name="ACT" Margin="0,10,0,0" Text="ACT Registration" Command="{Binding OpenACT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
                 <Button x:Name="MPT" Margin="0,10,0,0" Text="Math Practice Test" Command="{Binding OpenMPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold" />
-                <Button x:Name="RPT" Margin="0,10,0,0" Text="Reading Practice Test" Command="{Binding RPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
+                <Button x:Name="RPT" Margin="0,10,0,0" Text="Reading Practice Test" Command="{Binding OpenRPT}" BackgroundColor="#66c2ff" TextColor="White" FontAttributes="Bold"/>
             </StackLayout>
 
         </ScrollView>
