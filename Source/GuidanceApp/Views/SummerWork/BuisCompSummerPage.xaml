@@ -16,12 +16,12 @@
                     <TableSection Title="Buisness and Computer Technology" >
                         <ViewCell>
 
-                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                            <StackLayout   Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
                                 <Button Text="AP Computer Science Principles"
-                            HorizontalOptions="Start"
-                            TextColor="Black"
-                            FontFamily="Helvetica"
-                            FontSize="16">
+                                        HorizontalOptions="Start"
+                                        TextColor="Black"
+                                        FontFamily="Helvetica"
+                                        FontSize="16">
                                 </Button>
                             </StackLayout>
 
@@ -29,12 +29,13 @@
 
                         <ViewCell>
 
-                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                            <StackLayout   Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
                                 <Button Text="AP Computer Science"
-                            HorizontalOptions="Start"
-                            TextColor="Black"
-                            FontFamily="Helvetica"
-                            FontSize="16">
+                                        Command="{Binding OpenApcsSummer}"
+                                        HorizontalOptions="Start"
+                                        TextColor="Black"
+                                        FontFamily="Helvetica"
+                                        FontSize="16">
                                 </Button>
                             </StackLayout>
 

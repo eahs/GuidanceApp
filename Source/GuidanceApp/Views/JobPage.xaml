@@ -14,19 +14,22 @@
             <SearchBar
                 Placeholder="Search Jobs"
                 BackgroundColor="WhiteSmoke" />
-<TableView>
+
+            <TableView>
     <TableRoot >
         <TableSection Title="Retail" >
+
             <ViewCell>
 
+
                 <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Retail Job 1"
+                    <Button Text="CVS Cashier"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
                     </Button>
-                    <Label Text="Mon-Fri | $16/hour"
+                    <Label Text="Sun-Sat | $8/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">
@@ -40,13 +43,13 @@
             <ViewCell>
 
                 <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Retail Job 2"
+                    <Button Text="Walmart Sales Assosiate"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
                     </Button>
-                    <Label Text="Mon-Fri | $6/hour"
+                    <Label Text="Sun-Sat | $9/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">
@@ -67,13 +70,13 @@
            <ViewCell>
 
                 <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Food Job 1"
+                    <Button Text="McDonalds Crew Member"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
                     </Button>
-                    <Label Text="Mon-Fri | $9/hour"
+                    <Label Text="Sun-Sat | $7.25/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">
@@ -88,13 +91,13 @@
             <ViewCell>
 
                 <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Food Job 2"
+                    <Button Text="Arby's Team Member"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
                     </Button>
-                    <Label Text="Mon-Fri | $11/hour"
+                    <Label Text="Sun-Fri | $8.50/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">
@@ -112,49 +115,28 @@
 
         <TableSection Title="Others">
 
-         <ViewCell>
+                        <ViewCell>
 
-                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Other Job 1"
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Button Text="UPS Package Handler"
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
-                    </Button>
-                    <Label Text="Mon-Fri | $11/hour"
+                                </Button>
+                                <Label Text="Mon-Fri | $16/hour"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
                             Opacity="0.6">
 
 
-                    </Label>
-                </StackLayout>
+                                </Label>
+                            </StackLayout>
 
-            </ViewCell>
-
-            <ViewCell>
-
-                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Other Job 2"
-                            HorizontalOptions="Start"
-                            TextColor="Black"
-                            FontFamily="Helvetica"
-                            FontSize="16">
-                    </Button>
-                    <Label Text="Mon-Fri | $11/hour"
-                           VerticalOptions="Center"
-                           TextColor="DarkSlateGray"
-                            Opacity="0.6">
+                        </ViewCell>
 
 
-                    </Label>
-                </StackLayout>
-
-            </ViewCell>
-
-
-
-        </TableSection>
+                    </TableSection>
 
     </TableRoot>
 </TableView>
