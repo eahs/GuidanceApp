@@ -93,7 +93,7 @@
         <Tab Title="Links" Icon="link.png">
             <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
             <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:ScholarshipsPage}" />
-            <!-- <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" /> -->
+            <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
            
 
         </Tab>
@@ -109,7 +109,7 @@
         
         <Tab Title="Job Board" Icon="suitcase.png">
             <ShellContent Title="Jobs" ContentTemplate="{DataTemplate local:JobPage}" />
-            <!-- <ShellContent Title="Databases" ContentTemplate="{DataTemplate local:AboutPage}" /> -->
+            <ShellContent Title="Career Guides" ContentTemplate="{DataTemplate local:CareerGuidesPage}" />
             
            
 
@@ -121,7 +121,7 @@
     </FlyoutItem>
 
     
-       <!-- <FlyoutItem
+    <FlyoutItem
         Title="Calendar" Icon="calendar.png">
 
         
@@ -135,8 +135,9 @@
             <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
         </Tab>
 
-    </FlyoutItem> -->
-     <FlyoutItem
+    </FlyoutItem>
+
+    <FlyoutItem
         Title="About" Icon="tab_about.png">
 
         

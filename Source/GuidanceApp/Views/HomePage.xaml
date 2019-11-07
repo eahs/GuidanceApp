@@ -56,9 +56,6 @@
            <Label Text="You have no scheduled appointments."
            HorizontalTextAlignment="Center"
            TextColor="White"/>
-           <Label Text="AP Computer Science: Due 9/9/19"
-           HorizontalTextAlignment="Center"
-           TextColor="White"/>   
     </StackLayout>
     <StackLayout Padding="0,60,0,0">
         <Label Text="Want to meet with your counselor?"
@@ -66,6 +63,7 @@
                TextColor="White"/>
         <Button Text="Request an Appoinment"
                 TextColor="White"
+                Clicked="NavigateButton_OnClicked"
                 FontAttributes="Bold"
                 BackgroundColor="#A61C00"
                 Margin="10,0,10,0"/>

@@ -12,6 +12,11 @@ namespace GuidanceApp.Views
             InitializeComponent();
         }
 
+        private async void NavigateButton_OnClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MakeAppointment());
+        }
+
         public void HomeTap (object sender, EventArgs e)
         {
             Device.OpenUri(new Uri("https://www.eastonsd.org/"));

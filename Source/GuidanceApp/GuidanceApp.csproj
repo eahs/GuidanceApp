@@ -27,6 +27,7 @@
     <Compile Remove="Views\SummerWork.xaml.cs" />
     <Compile Remove="Views\MyPage.xaml.cs" />
     <Compile Remove="Views\BuisCompWorkPage.xaml.cs" />
+    <Compile Remove="Views\CareerGuides.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">
