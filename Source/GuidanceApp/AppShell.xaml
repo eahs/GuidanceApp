@@ -107,7 +107,7 @@
         Title="Job Board" Icon="suitcase.png">
 
         
-        <Tab Title="Job Board" Icon="suitcase.png">
+        <Tab Title="Jobs" Icon="suitcase.png">
             <ShellContent Title="Jobs" ContentTemplate="{DataTemplate local:JobPage}" />
             <ShellContent Title="Career Guides" ContentTemplate="{DataTemplate local:CareerGuidesPage}" />
             
