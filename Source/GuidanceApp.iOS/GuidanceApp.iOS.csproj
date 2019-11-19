@@ -136,6 +136,8 @@
     <BundleResource Include="Resources\Joe3.png" />
     <BundleResource Include="Resources\Joe4.jpg" />
     <BundleResource Include="Resources\Joe4.png" />
+    <BundleResource Include="Resources\Xello.jpg" />
+    <BundleResource Include="Resources\CareerCruising.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
