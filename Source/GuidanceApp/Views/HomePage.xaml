@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
     x:Class="GuidanceApp.Views.HomePage"
-    BackgroundColor="DimGray"
+    BackgroundImageSource="Joe2.png"
     
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
     Title="{Binding Title}">
@@ -17,6 +17,10 @@
     </Grid.ColumnDefinitions>
     <Grid.RowDefinitions><RowDefinition Height="*" />
     </Grid.RowDefinitions>
+
+
+    <Image Source="Joe4.jpg"/>
+  
 
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
@@ -42,8 +46,6 @@
        HorizontalTextAlignment="Center">
 </Label>
     <AbsoluteLayout>
-    <BoxView Color="#A61C00" HeightRequest="3" WidthRequest="415">
-    </BoxView>
     </AbsoluteLayout>
     <StackLayout Padding="10, 0, 0, 0">
     <Label Text="UPCOMING: "
@@ -57,7 +59,7 @@
            HorizontalTextAlignment="Center"
            TextColor="White"/>
     </StackLayout>
-    <StackLayout Padding="0,60,0,0">
+    <StackLayout Padding="0,200,0,0">
         <Label Text="Want to meet with your counselor?"
                HorizontalTextAlignment="Center"
                TextColor="White"/>
@@ -66,7 +68,7 @@
                 Clicked="NavigateButton_OnClicked"
                 FontAttributes="Bold"
                 BackgroundColor="#A61C00"
-                Margin="10,0,10,0"/>
+                Margin="20,0,20,0"/>
     </StackLayout>
 
 
