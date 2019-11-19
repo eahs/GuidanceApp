@@ -4,7 +4,6 @@
              x:Class="GuidanceApp.Views.CalendarPage"
              xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
              Title="{Binding Title}">
-    <ContentPage.Content>
 
-    </ContentPage.Content>
+
 </ContentPage>
