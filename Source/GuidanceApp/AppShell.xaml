@@ -93,7 +93,6 @@
         <Tab Title="Links" Icon="link.png">
             <ShellContent Title="Tests" ContentTemplate="{DataTemplate local:LinksPage}" />
             <ShellContent Title="Scholarships" ContentTemplate="{DataTemplate local:ScholarshipsPage}" />
-            <ShellContent Title="Other" ContentTemplate="{DataTemplate local:AboutPage}" />
            
 
         </Tab>
@@ -104,7 +103,7 @@
 
     </FlyoutItem>
        <FlyoutItem
-        Title="Job Board" Icon="suitcase.png">
+        Title="Jobs" Icon="suitcase.png">
 
         
         <Tab Title="Jobs" Icon="suitcase.png">
