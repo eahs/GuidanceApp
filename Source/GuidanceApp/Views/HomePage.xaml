@@ -71,6 +71,22 @@
                 Margin="20,0,20,0"/>
     </StackLayout>
 
+    <StackLayout Padding="0,10,0,0">
+    <Label Text="Tests"
+           HorizontalTextAlignment="Center"
+           TextColor="White"
+           Margin="0,0,0,0"/>
+    </StackLayout>
+
+    <StackLayout Padding="0,200,0,0">
+        
+        <Button Text="SAT And ACT"
+                TextColor="White"
+                Clicked="NavigateButton_OnClicked2"
+                FontAttributes="Bold"
+                BackgroundColor="#A61C00"
+                Margin="20,-200,20,0"/>
+    </StackLayout>
 
 
 
