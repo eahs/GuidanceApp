@@ -87,11 +87,24 @@
                 BackgroundColor="#A61C00"
                 Margin="20,-200,20,0"/>
     </StackLayout>
+    <StackLayout>
+        <Label Text="Career Guides"
+               HorizontalTextAlignment="Center"
+               TextColor="White"
+               Margin="0,10,0,0"
+               />
+    </StackLayout>
+    <StackLayout>
+       <Button Text="Career Cruising/ Xello"
+                TextColor="White"
+                Clicked="NavigateButton_OnClicked3"
+                FontAttributes="Bold"
+                BackgroundColor="#A61C00"
+                Margin="20,6,20,0"/>
 
-
-
-
-
+     </StackLayout>
+    
+    
 
 
 </StackLayout>
