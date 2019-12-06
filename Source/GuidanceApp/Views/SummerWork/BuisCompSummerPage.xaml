@@ -15,7 +15,6 @@
                 <TableRoot >
                     <TableSection Title="Buisness and Computer Technology" >
                         <ViewCell>
-
                             <StackLayout   Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
                                 <Button Text="AP Computer Science Principles"
                                         HorizontalOptions="Start"

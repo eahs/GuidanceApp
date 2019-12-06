@@ -13,7 +13,7 @@
         <StackLayout Orientation="Vertical" Padding="0, 35, 0, 40">
             <SearchBar
                 Placeholder="Search Jobs"
-                BackgroundColor="WhiteSmoke" />
+                BackgroundColor="WhiteSmoke"/>
 
             <TableView>
     <TableRoot >

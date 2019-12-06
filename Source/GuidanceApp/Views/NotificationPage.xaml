@@ -7,7 +7,44 @@
              <ContentPage.BindingContext>
                 <vm:NotificationsViewModel />
              </ContentPage.BindingContext>
+
     <StackLayout>
+         <Grid>
+        <StackLayout Orientation="Vertical" Padding="0, 0, 0, 0">
+
+    <TableView>
+    <TableRoot>
+        <TableSection Title="Notifications">
+
+            <ViewCell>
+                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                    <Button Text="Notif 1"
+                            HorizontalOptions="Start"
+                            TextColor="Black"
+                            FontFamily="Helvetica"
+                            FontSize="16">
+                    </Button>
+                    <Label Text="Description 1"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.6">
+
+
+                    </Label>
+                </StackLayout>
+            </ViewCell>
+
+        </TableSection>
+    </TableRoot>
+</TableView>
+           
+
+
+
+        </StackLayout>
+
+    </Grid>
+
    
     </StackLayout>
 
