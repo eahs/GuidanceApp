@@ -27,13 +27,26 @@
 <AbsoluteLayout Padding="10, 0, 0, 0">
 
 <Label x:Name="Web" Text="EASD Website" 
-       TextColor="#A61C00"
+       TextColor="White"
        FontFamily="Helvetica Light"
        TextDecorations="Underline">
 
     <Label.GestureRecognizers>
         <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/>
             
+    </Label.GestureRecognizers>
+
+</Label>
+</AbsoluteLayout>
+
+<AbsoluteLayout Padding="10, 0, 0, 0">
+<Label Text="Sign in"
+       TextColor="White"
+       FontFamily="Helvetica Light"
+       TextDecorations="Underline">
+
+    <Label.GestureRecognizers>
+        <TapGestureRecognizer Tapped="SignInTap" NumberOfTapsRequired="1"/>
     </Label.GestureRecognizers>
 
 </Label>

@@ -26,6 +26,11 @@ namespace GuidanceApp.Views
             await Navigation.PushAsync(new CareerGuidesPage());
         }
 
+        public void SignInTap(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AccountsPage());
+        }
+
         public void HomeTap (object sender, EventArgs e)
         {
             Device.OpenUri(new Uri("https://www.eastonsd.org/"));
