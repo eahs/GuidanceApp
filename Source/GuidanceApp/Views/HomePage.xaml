@@ -32,8 +32,7 @@
        TextDecorations="Underline">
 
     <Label.GestureRecognizers>
-        <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/>
-            
+        <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/> 
     </Label.GestureRecognizers>
 
 </Label>
@@ -46,7 +45,7 @@
        TextDecorations="Underline">
 
     <Label.GestureRecognizers>
-        <TapGestureRecognizer Tapped="SignInTap" NumberOfTapsRequired="1"/>
+        <TapGestureRecognizer Tapped="NavigateButton_OnClicked4" NumberOfTapsRequired="1"/>
     </Label.GestureRecognizers>
 
 </Label>
@@ -60,19 +59,7 @@
 </Label>
     <AbsoluteLayout>
     </AbsoluteLayout>
-    <StackLayout Padding="10, 0, 0, 0">
-    <Label Text="UPCOMING: "
-           TextColor="White"
-           FontAttributes="Bold"
-           FontSize="50"
-           HorizontalTextAlignment="Center">
-
-    </Label>
-           <Label Text="You have no scheduled appointments."
-           HorizontalTextAlignment="Center"
-           TextColor="White"/>
-    </StackLayout>
-    <StackLayout Padding="0,200,0,0">
+    <StackLayout Padding="0,0,0,0">
         <Label Text="Want to meet with your counselor?"
                HorizontalTextAlignment="Center"
                TextColor="White"/>

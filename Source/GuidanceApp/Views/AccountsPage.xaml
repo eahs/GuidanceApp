@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="GuidanceApp.Views.AccountsPage"
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
-    Title="[Binding Title}">
+    Title="{Binding Title}">
 
     <Grid>
     <Grid.ColumnDefinitions>
@@ -13,10 +13,10 @@
     <Grid.RowDefinitions><RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
-        <Image Source="Joe4.jpg"/>
+    <Image Source="Joe4.jpg"/>
 
 
-    <StackLayout Orientation="Vertical" Padding="0,30,0,0" Spacing="10">
+    <StackLayout Orientation="Vertical" Padding="0,0,0,0" Spacing="10">
 
     <Label Text="Please Sign in with your Roverkids Account"
         FontFamily="Helvetica"

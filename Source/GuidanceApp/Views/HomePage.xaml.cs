@@ -26,7 +26,7 @@ namespace GuidanceApp.Views
             await Navigation.PushAsync(new CareerGuidesPage());
         }
 
-        public void SignInTap(object sender, EventArgs e)
+        private async void NavigateButton_OnClicked4(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AccountsPage());
         }
