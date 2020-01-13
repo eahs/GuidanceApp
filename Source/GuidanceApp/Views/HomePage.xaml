@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
     x:Class="GuidanceApp.Views.HomePage"
     BackgroundImageSource="Joe2.png"
-    
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
     Title="{Binding Title}">
 <ContentPage.BindingContext>
@@ -19,9 +18,16 @@
     </Grid.RowDefinitions>
 
 
-    <Image Source="Joe4.jpg"/>
-  
-
+<Image Source="Joe4.png"
+                RelativeLayout.WidthConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                RelativeLayout.HeightConstraint=
+                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
+    <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+    </Grid>
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
 <AbsoluteLayout Padding="10, 0, 0, 0">
