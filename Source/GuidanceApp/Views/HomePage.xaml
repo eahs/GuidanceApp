@@ -17,17 +17,14 @@
     <Grid.RowDefinitions><RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
-
-<Image Source="Joe4.png"
-                RelativeLayout.WidthConstraint=
-                  "{ConstraintExpression Type=RelativeToParent, Property=Width}"
-                RelativeLayout.HeightConstraint=
-                  "{ConstraintExpression Type=RelativeToParent, Property=Height}"/>
-    <Grid RelativeLayout.WidthConstraint=
-              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
-            RelativeLayout.HeightConstraint=
-              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
-    </Grid>
+<RelativeLayout>
+    <Image
+        Source = "Joe4.png"
+        Aspect="AspectFill"
+        RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+        RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+    </Image>
+</RelativeLayout>
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
 <AbsoluteLayout Padding="10, 0, 0, 0">
@@ -86,7 +83,7 @@
 
     <StackLayout Padding="0,200,0,0">
         
-        <Button Text="SAT And ACT"
+        <Button Text="SAT and ACT"
                 TextColor="White"
                 Clicked="NavigateButton_OnClicked2"
                 FontAttributes="Bold"
@@ -115,6 +112,5 @@
 
 </StackLayout>
 </Grid>
-
 
 </ContentPage>
