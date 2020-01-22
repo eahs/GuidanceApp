@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="GuidanceApp.Views.AccountsPage"
+    xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
+    Title="{Binding Title}">
+
+    <Grid>
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions><RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+
+    <StackLayout Orientation="Vertical" Padding="0,0,0,0" Spacing="10">
+
+    <Image Source="EastonLogo.jpg"/>
+    
+    <Label Text="Please Sign in with your Roverkids Account"
+        FontFamily="Helvetica"
+        FontAttributes="Bold"
+        HorizontalTextAlignment="Center">
+
+    </Label>
+
+    <Label Text="*Insert google sign in button here*"
+        FontFamily="Helvetica"
+        FontAttributes="Bold"
+        HorizontalTextAlignment="Center">
+
+    </Label>
+
+    </StackLayout>
+    </Grid>
+
+
+</ContentPage>

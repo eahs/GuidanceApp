@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
     x:Class="GuidanceApp.Views.HomePage"
     BackgroundImageSource="Joe2.png"
-    
     xmlns:vm="clr-namespace:GuidanceApp.ViewModels"
     Title="{Binding Title}">
 <ContentPage.BindingContext>
@@ -18,22 +17,38 @@
     <Grid.RowDefinitions><RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
-
-    <Image Source="Joe4.jpg"/>
-  
-
+<RelativeLayout>
+    <Image
+        Source = "Joe4.png"
+        Aspect="AspectFill"
+        RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+        RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+    </Image>
+</RelativeLayout>
 
 <StackLayout Orientation="Vertical" Padding="0,10,0,40" Spacing="10">
 <AbsoluteLayout Padding="10, 0, 0, 0">
 
 <Label x:Name="Web" Text="EASD Website" 
-       TextColor="#A61C00"
+       TextColor="White"
        FontFamily="Helvetica Light"
        TextDecorations="Underline">
 
     <Label.GestureRecognizers>
-        <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/>
-            
+        <TapGestureRecognizer Tapped="HomeTap" NumberOfTapsRequired="1"/> 
+    </Label.GestureRecognizers>
+
+</Label>
+</AbsoluteLayout>
+
+<AbsoluteLayout Padding="10, 0, 0, 0">
+<Label Text="Sign in"
+       TextColor="White"
+       FontFamily="Helvetica Light"
+       TextDecorations="Underline">
+
+    <Label.GestureRecognizers>
+        <TapGestureRecognizer Tapped="NavigateButton_OnClicked4" NumberOfTapsRequired="1"/>
     </Label.GestureRecognizers>
 
 </Label>
@@ -47,19 +62,7 @@
 </Label>
     <AbsoluteLayout>
     </AbsoluteLayout>
-    <StackLayout Padding="10, 0, 0, 0">
-    <Label Text="UPCOMING: "
-           TextColor="White"
-           FontAttributes="Bold"
-           FontSize="50"
-           HorizontalTextAlignment="Center">
-
-    </Label>
-           <Label Text="You have no scheduled appointments."
-           HorizontalTextAlignment="Center"
-           TextColor="White"/>
-    </StackLayout>
-    <StackLayout Padding="0,200,0,0">
+    <StackLayout Padding="0,0,0,0">
         <Label Text="Want to meet with your counselor?"
                HorizontalTextAlignment="Center"
                TextColor="White"/>
@@ -80,7 +83,7 @@
 
     <StackLayout Padding="0,200,0,0">
         
-        <Button Text="SAT And ACT"
+        <Button Text="SAT and ACT"
                 TextColor="White"
                 Clicked="NavigateButton_OnClicked2"
                 FontAttributes="Bold"
@@ -109,6 +112,5 @@
 
 </StackLayout>
 </Grid>
-
 
 </ContentPage>
