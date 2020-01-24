@@ -19,6 +19,10 @@
     <EmbeddedResource Remove="Views\SummerWork.xaml" />
     <EmbeddedResource Remove="Views\MyPage.xaml" />
     <EmbeddedResource Remove="Views\BuisCompWorkPage.xaml" />
+    <EmbeddedResource Remove="Views\SummerWork\EnglishSummerPage.xaml" />
+    <EmbeddedResource Remove="Views\SummerWork\ForLangSummerPage.xaml" />
+    <EmbeddedResource Remove="Views\SummerWork\MathSummerPage.xaml" />
+    <EmbeddedResource Remove="Views\SummerWork\ScienceSummerPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
@@ -28,18 +32,14 @@
     <Compile Remove="Views\MyPage.xaml.cs" />
     <Compile Remove="Views\BuisCompWorkPage.xaml.cs" />
     <Compile Remove="Views\CareerGuides.xaml.cs" />
+    <Compile Remove="Views\SummerWork\EnglishSummerPage.xaml.cs" />
+    <Compile Remove="Views\SummerWork\ForLangSummerPage.xaml.cs" />
+    <Compile Remove="Views\SummerWork\HistorySummerPage.xaml.cs" />
+    <Compile Remove="Views\SummerWork\MathSummerPage.xaml.cs" />
+    <Compile Remove="Views\SummerWork\ScienceSummerPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\SummerWork\ForLangSummerPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\SummerWork\HistorySummerPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\SummerWork\ScienceSummerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
