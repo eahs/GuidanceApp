@@ -72,12 +72,6 @@
         
         <Tab Title="Summer Work" Icon="pending.png">
             <ShellContent Title="Busi. and Comp." ContentTemplate="{DataTemplate local:BuisCompSummerPage}" />
-            <ShellContent Title="English" ContentTemplate="{DataTemplate local:EnglishSummerPage}" />
-            <ShellContent Title="Foreign Language" ContentTemplate="{DataTemplate local:ForLangSummerPage}" />
-            <ShellContent Title="History" ContentTemplate="{DataTemplate local:HistorySummerPage}" />
-            <ShellContent Title="Math" ContentTemplate="{DataTemplate local:MathSummerPage}" />
-            <ShellContent Title="Science" ContentTemplate="{DataTemplate local:ScienceSummerPage}" />
-           
 
         </Tab>
        
