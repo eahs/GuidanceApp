@@ -113,23 +113,6 @@
 
     </FlyoutItem>
 
-    
-    <FlyoutItem
-        Title="Calendar" Icon="calendar.png">
-
-        
-        <Tab Title="Calendar" Icon="calendar.png">
-            <ShellContent Title="Calendar" ContentTemplate="{DataTemplate local:CalendarPage}" />
-        </Tab>
-
-
-      
-          <Tab Title="Notifications" Icon="tab_feed@3x">
-            <ShellContent ContentTemplate="{DataTemplate local:NotificationPage}" />
-        </Tab>
-
-    </FlyoutItem>
-
     <FlyoutItem
         Title="About" Icon="tab_about.png">
 
