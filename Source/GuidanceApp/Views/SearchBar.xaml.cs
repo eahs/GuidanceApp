@@ -5,12 +5,11 @@ using Xamarin.Forms;
 
 namespace GuidanceApp.Views
 {
-    public partial class JobPage : ContentPage
+    public partial class SearchBar : ContentPage
     {
-        public JobPage()
+        public SearchBar()
         {
             InitializeComponent();
         }
-
     }
 }
