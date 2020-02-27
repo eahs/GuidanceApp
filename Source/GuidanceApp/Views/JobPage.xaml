@@ -46,12 +46,4 @@
         </StackLayout>
 
     </Grid>
-
-
-
-
-    <!--<Grid>
-        <WebView Source=""></WebView>
-    </Grid>-->
 </ContentPage>
-        <StackLayout Orientation="Vertical" Padding="0, 0, 0, 0">
