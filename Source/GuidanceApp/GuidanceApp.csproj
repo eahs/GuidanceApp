@@ -29,6 +29,7 @@
     <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
     <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
     <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
+    <EmbeddedResource Remove="Views\CalendarPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
