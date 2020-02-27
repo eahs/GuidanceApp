@@ -98,7 +98,7 @@
                />
     </StackLayout>
     <StackLayout>
-       <Button Text="Career Cruising/ Xello"
+       <Button Text="Xello"
                 TextColor="White"
                 Clicked="NavigateButton_OnClicked3"
                 FontAttributes="Bold"

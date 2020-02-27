@@ -26,6 +26,9 @@
     <EmbeddedResource Remove="Views\SummerWork\ScienceSummerPage.xaml" />
     <EmbeddedResource Remove="Views\CalendarPage.xaml" />
     <EmbeddedResource Remove="Views\SearchBar.xaml" />
+    <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
+    <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
+    <EmbeddedResource Remove="Views\ScholarshipsPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Test.xaml.cs" />
@@ -42,6 +45,8 @@
     <Compile Remove="Views\SummerWork\ScienceSummerPage.xaml.cs" />
     <Compile Remove="Views\CalendarPage.xaml.cs" />
     <Compile Remove="Views\SearchBar.xaml.cs" />
+    <Compile Remove="Views\SearchBar.cs" />
+    <Compile Remove="Views\ScholarshipsPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\CancelAppoint.xaml">

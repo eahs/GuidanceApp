@@ -9,6 +9,6 @@
    <vm:ScholarshipViewModel/>
 </ContentPage.BindingContext>
     <Grid>
-<WebView Source="https://scholarships.eastonsd.org/Admin"></WebView>
+<WebView Source="https://scholarships.eastonsd.org/>"></WebView>
     </Grid>
 </ContentPage>
