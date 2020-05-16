@@ -49,7 +49,7 @@ namespace GuidanceApp.Views
             base.OnAppearing();
 
             if (viewModel.Items.Count == 0)
-                viewModel.LoadItemsCommand.Execute(null);
+                viewModel.GetLoadItemsCommand().Execute(null);
         }
     }
 }

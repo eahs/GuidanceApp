@@ -128,16 +128,9 @@
     <BundleResource Include="Resources\suitcase.png" />
     <BundleResource Include="Resources\calendar.png" />
     <BundleResource Include="Resources\home.png" />
-    <BundleResource Include="Resources\Background.jpg" />
-    <BundleResource Include="Resources\bruhman.png" />
-    <BundleResource Include="Resources\benson.jpg" />
-    <BundleResource Include="Resources\Joe2.png" />
-    <BundleResource Include="Resources\JoePTSD.png" />
-    <BundleResource Include="Resources\Joe3.png" />
     <BundleResource Include="Resources\Joe4.jpg" />
     <BundleResource Include="Resources\Joe4.png" />
     <BundleResource Include="Resources\Xello.jpg" />
-    <BundleResource Include="Resources\CareerCruising.png" />
     <BundleResource Include="Resources\EastonLogo.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -165,4 +158,9 @@
       <Name>GuidanceApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties XamarinHotReloadWrongLinkerErrorInfoBarGuidanceAppiOSHideInfoBar="True" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

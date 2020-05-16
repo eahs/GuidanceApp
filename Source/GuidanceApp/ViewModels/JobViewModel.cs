@@ -4,8 +4,9 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using GuidanceApp.Models;
 using Newtonsoft.Json;
-using System.Linq;
 using RestSharp;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace GuidanceApp.ViewModels
 {
@@ -18,7 +19,17 @@ namespace GuidanceApp.ViewModels
             Jobs = new ObservableCollection<Jobs>();
 
             LoadItemsCommand.Execute(null);
+
+           // Title = "Jobs";
+
+            //OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+           // OpenLink = new Command(() => Device.OpenUri(new Uri("https://collegereadiness.collegeboard.org/sat/register")));
+
         }
+
+        //public ICommand OpenWebCommand { get; }
+       // public ICommand OpenLink { get; }
+
 
         protected override async Task LoadItemsAsync()
         {

@@ -13,13 +13,24 @@ namespace GuidanceApp.ViewModels
     public class ItemsViewModel : BaseViewModel
     {
         public ObservableCollection<Item> Items { get; set; }
-        public Command LoadItemsCommand { get; set; }
+
+        private Command loadItemsCommand;
+
+        public Command GetLoadItemsCommand()
+        {
+            return loadItemsCommand;
+        }
+
+        public void SetLoadItemsCommand(Command value)
+        {
+            loadItemsCommand = value;
+        }
 
         public ItemsViewModel()
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            SetLoadItemsCommand(new Command(async () => await ExecuteLoadItemsCommand()));
 
             MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
             {

@@ -13,33 +13,48 @@
     <Grid>
         <StackLayout Orientation="Vertical" Padding="0, 35, 0, 40">
 
-    <TableView>
-    <TableRoot>
-        <TableSection Title="Notifications">
-
-            <ViewCell>
-                <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
-                    <Button Text="Notif 1"
+            <ListView
+                x:Name="JobsListView"
+                SeparatorColor="LightGray"
+                BackgroundColor="LightGray"
+                AbsoluteLayout.LayoutBounds="0.5, 1, 0.8, 0.8"
+                AbsoluteLayout.LayoutFlags="PositionProportional,SizeProportional"
+                ItemsSource="{Binding Jobs}"
+                VerticalOptions="FillAndExpand"
+                HasUnevenRows="true"
+                RefreshCommand="{Binding LoadItemsCommand}"
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                CachingStrategy="RecycleElement">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Padding="16,0,16,0" Spacing="10">
+                                <Label Text="{Binding JobTitle}" 
                             HorizontalOptions="Start"
                             TextColor="Black"
                             FontFamily="Helvetica"
                             FontSize="16">
-                    </Button>
-                    <Label Text="Description 1"
+                                </Label>
+                                <Label Text="{Binding JobDetail}"
                            VerticalOptions="Center"
                            TextColor="DarkSlateGray"
-                            Opacity="0.6">
+                            Opacity="0.8">
+                                </Label>
 
+                                <Label Text="{Binding Wage}"
+                           VerticalOptions="Center"
+                           TextColor="DarkSlateGray"
+                            Opacity="0.8">
+                                </Label>
+                                
+                            </StackLayout>
+                        </ViewCell>
 
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
-                    </Label>
-                </StackLayout>
-            </ViewCell>
-
-        </TableSection>
-    </TableRoot>
-</TableView>
-           
 
 
 
